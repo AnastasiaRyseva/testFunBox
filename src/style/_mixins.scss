@@ -1,0 +1,11 @@
+@mixin fonts-descr($f-size, $f-weight: 500, $color: $whiteText) {
+    font-size: $f-size;
+    font-weight: $f-weight;
+    color: $color;
+}
+@mixin flex($display, $d-direction: row, $f-justify, $align: center) {
+    display: $display;
+    flex-direction: $d-direction;
+    justify-content: $f-justify;
+    align-items: $align;
+}
