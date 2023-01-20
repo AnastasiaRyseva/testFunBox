@@ -45,19 +45,19 @@
         &-name {
             @include fonts-descr(1.6rem, 500, rgb(102, 102, 102));
             line-height: 1.2;
-            font-family: "trebuchetms";
+            font-family: "Exo", sans-serif;
         }
         &-title {
             @include fonts-descr(2.8rem, 700, rgb(0, 0, 0));
             line-height: 1.2;
-            font-family: "trebuchetms";
+            font-family: "Exo", sans-serif;
             @media (min-width: 880px) {
                 font-size: 4.8rem;
             }
         }
         &-descr {
             @include fonts-descr(2.4rem, 700, rgb(0, 0, 0));
-            font-family: "trebuchetms";
+            font-family: "Exo";
             line-height: 1.2; 
         }
         &-count {
