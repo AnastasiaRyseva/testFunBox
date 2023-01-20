@@ -5,8 +5,7 @@ export const changeStateOnClickBuy = function(e) {
         return
     }
     if(e.target.className == 'buy') {
-        console.log(e.target.closest('.products__item_wrapper'));
-        let productCard = e.target.closest('.products__item_wrapper').childNodes[1];
+        let productCard = e.target.closest('.products__item_wrapper').querySelector('.products__item');
         changeElement(productCard, e.target.parentNode);
     }
 }
